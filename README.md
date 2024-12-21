@@ -1,6 +1,4 @@
-# Template Python FastAPI Repo
-[![CI](https://github.com/chrishart0/template-python-fastapi-repo/actions/workflows/ci.yml/badge.svg)](https://github.com/chrishart0/template-python-fastapi-repo/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/github/chrishart0/template-python-fastapi-repo/graph/badge.svg?token=6QFK2BOQ54)](https://codecov.io/github/chrishart0/template-python-fastapi-repo)
+# Notes from [Reasoning with o1 DeepLearning.ai course](https://learn.deeplearning.ai/courses/reasoning-with-o1/lesson/1/introduction)
 
 ## Instructions
 
@@ -12,7 +10,6 @@ Follow these steps to set up the project:
    ```sh
    # Install specific Python version
    pyenv install 3.12
-   pyenv local 3.12
    ```
 
 2. **Create a virtual environment:**
@@ -41,6 +38,7 @@ Follow these steps to set up the project:
 
 5. **Setup your .env**
 Copy the `.env.example` file to `.env` and update the values:
+
 
 6. **Optional: Setup pre-commit hook**
 ```
@@ -81,8 +79,7 @@ This project uses environment variables to manage sensitive information and conf
 1. **Create a `.env` file:**
    Create a `.env` file in the root of the repository with the following content:
    ```sh
-   API_KEY=your_api_key_here
-   DATABASE_URL=your_database_url_here
+   OPENAI_API_KEY=sk-proj-...
    ```
 
 2. **Run the needed services:**
