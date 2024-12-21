@@ -41,8 +41,19 @@ Copy the `.env.example` file to `.env` and update the values:
 
 
 6. **Optional: Setup pre-commit hook**
-```
+```bash
 pre-commit install
+```
+
+## Run the openai usage examples
+
+Simple gpt-4o chat
+```bash
+```
+
+Simple OpenAI o1-mini call
+```bash
+python template_python_fastapi_repo/examples/simple-o1-api-call.py
 ```
 
 ## Running the FastAPI server
